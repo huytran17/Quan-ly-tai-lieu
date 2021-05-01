@@ -23,7 +23,7 @@ public class DB {
     private final String PASSWORD;
 
     public DB() {
-        URL = "jdbc:mysql://localhost/nhom3_qltv";
+        URL = "jdbc:mysql://localhost:3306/nhom3_qltv";
         USER = "root";
         PASSWORD = "";
         conn = null;
